@@ -32,6 +32,7 @@ Gem::Specification.new do |s|
     lib/tilt/erubis.rb
     lib/tilt/etanni.rb
     lib/tilt/haml.rb
+    lib/tilt/hamdown.rb
     lib/tilt/kramdown.rb
     lib/tilt/less.rb
     lib/tilt/liquid.rb

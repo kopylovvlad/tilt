@@ -40,6 +40,7 @@ end
 group :secondary do
   gem 'creole'
   gem 'kramdown'
+  gem 'hamdown'
   gem 'rdoc'
   gem 'radius'
   gem 'asciidoctor', '>= 0.1.0'

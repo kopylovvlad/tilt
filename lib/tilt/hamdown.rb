@@ -7,7 +7,7 @@ module Tilt
 
     def prepare
       options = {}.update(@options)
-      @engine = ::Hamdown::Engine.perform(content)
+      @engine = ::Hamdown::Engine
     end
 
     def evaluate(scope, locals, &block)

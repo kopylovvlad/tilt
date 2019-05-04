@@ -12,7 +12,7 @@ module Tilt
 
     def evaluate(scope, locals, &block)
       if scope.nil?
-        @output ||= @engine.perform(data)
+        @engine.perform(data)
       else
         @engine.perform(scope)
       end

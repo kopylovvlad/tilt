@@ -11,10 +11,10 @@ module Tilt
     end
 
     def evaluate(scope, locals, &block)
-      if scope.nil?
-        @engine.perform(data)
-      else
+      if scope.is_a?(String)
         @engine.perform(scope)
+      else
+        @engine.perform(data)
       end
     end
   end
